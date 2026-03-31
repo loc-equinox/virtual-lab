@@ -36,3 +36,7 @@ nav:
       - 实验室简介: advisors/tao_xie/basic_info.md
       - 文献知识库: advisors/tao_xie/literature.md
       - 项目演练场: advisors/tao_xie/projects.md
+    - 示例:
+      - 实验室简介: example/basic_info.md
+      - 文献知识库: example/literature.md
+      - 项目演练场: example/projects.md
