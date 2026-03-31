@@ -1,17 +1,12 @@
-# Welcome to MkDocs
+欢迎来到北京大学“前沿计算研究实践II”课程的线上科研实习室！
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+这门课的课程报告要求参考每个具体实验室，搭建科研实践传承体系，提供实验室方向介绍、论文收集、以及可以在4-8周内动手完成的模块化任务等等，方便未来同学无须实际
+进组就可对科研实验室快速了解和上手。如果同学们分别搭建自己导师的网站的话可能不方便维护，也不方便没有进组的同学收集信息。所以我决定搭一个统一的基座，大家在这个基础上补充各个实验室的情况。
 
-## Commands
+目前这个网站还处于建设初期，欢迎大家提 PR。
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+使用指南：
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
++ 本网站使用 mkdocs 构建，使用 `pip install -r requirements.txt` 安装对应依赖。
++ 要添加新的条目，你需要在 mkdocs.yml 的 nav 里的对应位置修改，并在 docs 文件夹下添加相应的 .md 文件。
++ 你可以在本地运行 `mkdocs serve` 来检查构建的效果。

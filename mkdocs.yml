@@ -1,4 +1,4 @@
-site_name: 虚拟实验室 (Virtual Lab)
+site_name: 科研实习室
 site_url: https://example.com/
 site_author: Leshan Chen
 
@@ -30,4 +30,9 @@ theme:
         name: 切换到亮色模式
 
 nav:
-  - Home: index.md
+  - 首页: index.md
+  - 导师列表:
+    - 谢涛: 
+      - 实验室简介: advisors/tao_xie/basic_info.md
+      - 文献知识库: advisors/tao_xie/literature.md
+      - 项目演练场: advisors/tao_xie/projects.md
