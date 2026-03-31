@@ -1,6 +1,6 @@
 ## 自动算子合成
 ### 基础知识
-+ 基本概念：CUDA（nvcc, cuBLAS, cuDNN），ROCm，PyTorch，Triton，TVM，TileLang 等等，建议和大模型对话几轮，熟悉一下上述概念。
++ 基本概念：CUDA（nvcc/cuBLAS/cuDNN），ROCm，PyTorch，Triton，TVM，TileLang 等等，建议和大模型对话几轮，熟悉一下上述概念。
 + CUDA 推荐教材：Programming Massively Parallel Processors
 + Triton 推荐教程：[https://triton-lang.org/main/getting-started/tutorials/index.html](https://triton-lang.org/main/getting-started/tutorials/index.html)，不需要 PyTorch 先修，因为这个教程也是对比 PyTorch 和 Triton 的性能差距，所以也能借此学会 PyTorch 的语法。
 
