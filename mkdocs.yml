@@ -2,6 +2,8 @@ site_name: 科研实习室
 site_url: https://example.com/
 site_author: Leshan Chen
 
+copyright: 本站所有内容均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans">CC BY-NC-SA 4.0</a> 协议许可
+
 theme:
   name: material
   language: zh
