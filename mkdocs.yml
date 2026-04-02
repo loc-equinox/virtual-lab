@@ -7,6 +7,8 @@ copyright: 本站所有内容均采用 <a href="https://creativecommons.org/lice
 theme:
   name: material
   language: zh
+  static_templates:
+    - 404.html
   features:
     - header.autohide
     - navigation.tracking
