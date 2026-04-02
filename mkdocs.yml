@@ -41,6 +41,9 @@ nav:
     - 孔雨晴:
       - 实验室简介: advisors/yuqing_kong/basic_info.md
       - 文献知识库: advisors/yuqing_kong/literature.md
+    - 施柏鑫:
+      - 实验室简介: advisors/boxin_shi/basic_info.md
+      - 文献知识库: advisors/boxin_shi/literature.md
   - 示例:
     - 实验室简介: example/basic_info.md
     - 文献知识库: example/literature.md
