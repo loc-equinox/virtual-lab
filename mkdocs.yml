@@ -36,17 +36,20 @@ theme:
 nav:
   - 首页: index.md
   - 导师列表:
-    - 谢涛: 
-      - 实验室简介: advisors/tao_xie/basic_info.md
-      - 文献知识库: advisors/tao_xie/literature.md
-      - 项目演练场: advisors/tao_xie/projects.md
-    - 孔雨晴:
-      - 实验室简介: advisors/yuqing_kong/basic_info.md
-      - 文献知识库: advisors/yuqing_kong/literature.md
-    - 施柏鑫:
-      - 实验室简介: advisors/boxin_shi/basic_info.md
-      - 文献知识库: advisors/boxin_shi/literature.md
+      - 谢涛:
+          - 实验室简介: advisors/tao_xie/basic_info.md
+          - 文献知识库: advisors/tao_xie/literature.md
+          - 项目演练场: advisors/tao_xie/projects.md
+      - 孔雨晴:
+          - 实验室简介: advisors/yuqing_kong/basic_info.md
+          - 文献知识库: advisors/yuqing_kong/literature.md
+      - 施柏鑫:
+          - 实验室简介: advisors/boxin_shi/basic_info.md
+          - 文献知识库: advisors/boxin_shi/literature.md
+      - 李锭:
+          - 实验室简介: advisors/ding_li/basic_info.md
+          - 文献知识库: advisors/ding_li/literature.md
   - 示例:
-    - 实验室简介: example/basic_info.md
-    - 文献知识库: example/literature.md
-    - 项目演练场: example/projects.md
+      - 实验室简介: example/basic_info.md
+      - 文献知识库: example/literature.md
+      - 项目演练场: example/projects.md
