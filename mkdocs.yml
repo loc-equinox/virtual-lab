@@ -49,6 +49,9 @@ nav:
       - 李锭:
           - 实验室简介: advisors/ding_li/basic_info.md
           - 文献知识库: advisors/ding_li/literature.md
+      - 王亦洲:
+          - 实验室简介: advisors/yizhou_wang/basic_info.md
+          - 文献知识库: advisors/yizhou_wang/literature.md
   - 示例:
       - 实验室简介: example/basic_info.md
       - 文献知识库: example/literature.md
