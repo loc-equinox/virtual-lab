@@ -52,6 +52,10 @@ nav:
       - 王亦洲:
           - 实验室简介: advisors/yizhou_wang/basic_info.md
           - 文献知识库: advisors/yizhou_wang/literature.md
+      - 胡振江:
+          - 实验室简介: advisors/zhenjiang_hu/basic_info.md
+          - 文献知识库: advisors/zhenjiang_hu/literature.md
+          - 项目演练场: advisors/zhenjiang_hu/projects.md
   - 示例:
       - 实验室简介: example/basic_info.md
       - 文献知识库: example/literature.md
