@@ -10,4 +10,8 @@
 
 ### 双向变换
 
-### DSL
+双向变换的核心思想是 “Can Programming be Liberated from Unidirectional Style?”（能否从单向风格中解放编程？），研究如何使程序在” 正向” 和” 反向” 两个方向上都能转换，保持 roundtrip 属性。
+
+### 领域特定语言（Domain Specific Languages）
+
+### 程序综合与优化（Program Synthesis & Optimization）
