@@ -56,7 +56,12 @@ nav:
           - 实验室简介: advisors/zhenjiang_hu/basic_info.md
           - 文献知识库: advisors/zhenjiang_hu/literature.md
           - 项目演练场: advisors/zhenjiang_hu/projects.md
+          - CStar 使用指南: advisors/zhenjiang_hu/cstar_guide.md
   - 示例:
       - 实验室简介: example/basic_info.md
       - 文献知识库: example/literature.md
       - 项目演练场: example/projects.md
+
+markdown_extensions:
+  - pymdownx.tilde
+

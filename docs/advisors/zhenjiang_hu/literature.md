@@ -3,12 +3,22 @@
 回顾“实验室研究方向”一节中的介绍，我们需要对待证明的语言、待证明的程序、待证明的性质、以及证明的过程进行形式化的建模，因此我们可以大致按照这个框架开展学习。你也可以把这一节的内容发给 AI，让它扩充一下你感兴趣或不太理解的地方，形成更适合你的学习路线。
 
 ### 学习路线
-+ 首先我们要学习如何使用证明助理（Proof assistant）。证明助理有很多，也分为不同的技术路线，我们建议从 Rocq（Coq）开始。[Software Foundations](https://softwarefoundations.cis.upenn.edu/) 系列是这方面的经典教材。不过注意，这套教材并不需要按顺序学。一条合理的快速上手路线是 Vol1 -> Vol2(Equiv-StlcProp) -> Vol6(Basic-Wand 的 First Pass 部分)。
++ 首先，我们要学习如何使用证明助理（Proof assistant）。证明助理有很多，也分为不同的技术路线，我们建议从 Rocq（Coq）开始。[Software Foundations](https://softwarefoundations.cis.upenn.edu/) 系列是这方面的经典教材。不过注意，这套教材并不需要按顺序学。
 + 接下来，你可以根据自己感兴趣的内容采取不同的学习路线：
 
-#### 路线1: 应用端-真实系统验证
-+ 真实系统往往涉及并发，而 Software Foundations 里面都是单线程的程序，所以我们需要扩展我们的理论工具。并发程序有不同的建模方式，以 [Iris](https://iris-project.org/) 为代表的**并发分离逻辑**是其中一种，建议阅读网站上的 Iris lecture notes，辅以 Iris tutorial in Rocq 获得一些上手的体验。如果你还意犹未尽，想进行更深入的理论学习，可以继续阅读 Iris from the ground up 论文。
-+ Software Foundations 在 Rocq 里面定义了待证明的程序，但真实系统的验证需要处理像 C 这样的实际语言。SF Vol5 的 VST 是很经典的技术，不过你也可以直接学习 [CStar](https://gitee.com/cstarlang) 或者上海交通大学团队研发的 QCP（目前 AI 可能不知道 CStar 或 QCP，所以你可能要和组里同学多交流）。
+#### 路线1：应用端-真实系统验证
++ 如前所述，SF 不一定要按顺序学，对于这个方向，一条合理的快速上手路线是 Vol1 -> Vol2(Equiv-StlcProp) -> Vol6(Basic-Wand 的 First Pass 部分)。
++ 真实系统往往涉及并发，而 SF 里面都是单线程的程序，所以我们需要扩展我们的理论工具。并发程序有不同的建模方式，以 [Iris](https://iris-project.org/) 为代表的**并发分离逻辑**是其中一种，建议阅读官网上的 Iris lecture notes，辅以 Iris tutorial in Rocq 获得一些上手的体验。如果你还意犹未尽，想进行更深入的理论学习，可以继续阅读 Iris from the ground up 论文。
++ SF 在 Rocq 里面定义了待证明的程序，但真实系统的验证需要处理像 C 这样的实际语言。SF Vol5 的 VST 是很经典的技术，不过你也可以直接学习 [CStar](https://gitee.com/cstarlang) 或者上海交通大学团队研发的 QCP（目前 AI 可能不知道 CStar 或 QCP，所以你可能要和组里同学多交流）。
+
+#### 路线2：应用端-实践证明
+
+这条路线关注的是如何利用 CStar 证明一些常见的数据结构与算法的性质。
+
++ ~~一个显然的前置知识是你需要掌握你想证的数据结构与算法。~~
++ 对于这个方向，首先需要熟悉程序逻辑、断言、循环不变式等基础概念。建议按如下方式学习 SF：Vol1 -> Vol2(Equiv-HoareAsLogic) -> Vol3。
++ 下一步是通过一些简单的例子（如 CStar-Examples，详见 CStar 仓库）理解 CStar 语言本身的语法与语义，以及 CStar 的工具链使用：CStar 如何翻译目标 C 程序、如何调用后端证明器、如何通过报错输出定位问题等等。
++ 到这里，你应该能理解 CStar 分为符号执行器和后端证明器。由于 CStar 的后端证明器是 HOL-light 而不是 Rocq，所以你可能需要学习一些 HOL-light 的教程。
 
 ## 双向变换
 
